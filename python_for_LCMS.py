@@ -2,8 +2,8 @@ import os
 import shutil
 import sched, time
 s = sched.scheduler(time.time, time.sleep)
-path_LCMS= 'W:/Walkup LCMS 1Group'
-path_home = 'C:/Users/mrajamanickam/Desktop/My_LCMS'
+path_LCMS= 'W:/...LCMS...'
+path_home = 'C:/.../My_LCMS'
 from datetime import datetime
 now = datetime.now()
 today = now.strftime ("%Y-%m-%d")
